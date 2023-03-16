@@ -6,7 +6,7 @@ public class HDFC implements BankSystem {
     private String password;
     private int balance;
     private String name;
-    public int rateOfInterest;
+    public static int rateOfInterest;
     public String accountNo;
 
     public HDFC (String name, String password) {
